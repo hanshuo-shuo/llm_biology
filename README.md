@@ -12,3 +12,16 @@
 
 ## How can we make the env more complex?
 - 
+
+
+
+We talked about biological alignment recently. Another thing I’ve been wondering. Could an LLM help the mice learn how to complete the maze more safely.
+This is a harder idea and we’d need to think about it more.
+But basically, if we let the LLM control a light in the environment. Could it signal to the mouse when it’s safe to move and when it should stay.
+Would the mouse learn to follow the light. Could the LLM learn to model the mouses behavior.
+
+
+NEW
+
+8:56
+I just like the idea of the LLM and the mouse learning to work together to avoid the predator.
