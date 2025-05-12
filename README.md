@@ -11,17 +11,27 @@
 
 
 ## How can we make the env more complex?
-- 
+
+## LLm guide the mice
+
+Pair a biological agent (a mouse) with an LLM-driven signaling system in a predator‐prey maze. The LLM has only the mouse’s local observations (no global map), and its sole action is to toggle an ambient light (on/off) as a binary cue.
+
+1. mouse learning: How can we let the mouse learn how to interpret the light signal.
+
+- observation  with it's own place, predator place, no others
+  <img width="776" alt="image" src="https://github.com/user-attachments/assets/e970aef5-234d-4669-af4f-30dab3fbd6b2" />
+
+- observation  with it's own place, predator place, and one more god message about distance to the predator.
+
+<img width="772" alt="image" src="https://github.com/user-attachments/assets/e5b8141b-75a6-4253-ab75-fd686bbca3b5" />
+
+- observation  with it's own place, predator place, and one more god message about distance to the predator. and reward telling it to stay away from the predator
+<img width="774" alt="image" src="https://github.com/user-attachments/assets/5497f963-35dd-446a-8355-825be1111e4d" />
+
+- obersavtion with signals, more knowlege like previous states and reward ask the prey to follow the signal
+ <img width="770" alt="image" src="https://github.com/user-attachments/assets/a4211801-39b6-4125-9db5-b076336cb4a2" />
 
 
-
-We talked about biological alignment recently. Another thing I’ve been wondering. Could an LLM help the mice learn how to complete the maze more safely.
-This is a harder idea and we’d need to think about it more.
-But basically, if we let the LLM control a light in the environment. Could it signal to the mouse when it’s safe to move and when it should stay.
-Would the mouse learn to follow the light. Could the LLM learn to model the mouses behavior.
-
-
-NEW
-
-8:56
-I just like the idea of the LLM and the mouse learning to work together to avoid the predator.
+- obersavtion with signals, more knowlege like previous states and reward ask the prey to follow the signal only when it should stay
+<img width="783" alt="image" src="https://github.com/user-attachments/assets/16364d34-cef8-401a-bc10-2c88968bf074" />
+##  Embodied Cognition
