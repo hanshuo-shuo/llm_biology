@@ -1,6 +1,27 @@
 ## Model Overview
+
 - **LLaMA‑3 8B (text-only)** – initial agent that reasoned purely over textual descriptions of the arena.
+
+Each step, a custom wrapper turns the state into text (position, heading, goal bearing, obstacles/boundary, predator).
+
+The prompt also includes feedback about the last action (whether the position changed and the current “stuck” streak) plus a discrete action menu.
+The model responds in a structured format:
+
+ACTION: [0–6] 
+
+THOUGHT: [brief reasoning]
+
+Known issue: The agent often gets stuck or oscillates near obstacles/boundaries, but can still just about complete the task in some runs.
+
 - **GLM‑4.1V 9B Thinking (vision-language)** – follow-up agent with the same parameter scale but direct visual grounding on rendered frames.
+
+Vision‑language agent that selects the next absolute target (x, y) from a top‑down arena image; we then execute one step toward that point.
+
+Model output must be:
+move: [{"x": <float>, "y": <float>}]
+thoughts: "<one‑line strategy>"
+
+Reported to be competitive with, and in some cases stronger than, GPT‑4o for spatial planning; 
 
 ## Episode GIF Gallery
 
