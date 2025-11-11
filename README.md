@@ -7,11 +7,11 @@ Each step, a custom wrapper turns the state into text (position, heading, goal b
 The prompt also includes feedback about the last action (whether the position changed and the current “stuck” streak) plus a discrete action menu.
 The model responds in a structured format:
 
-ACTION: [0–6] 
+ACTION: [0–6] six hex‑aligned directions (the arena is hexagonal) plus Freeze.
 
 THOUGHT: [brief reasoning]
 
-Known issue: The agent often gets stuck or oscillates near obstacles/boundaries, but can still just about complete the task in some runs.
+Known issue: The agent often gets stuck or oscillates near obstacles/boundaries, but can still just about complete the task in some runs. 
 
 - **GLM‑4.1V 9B Thinking (vision-language)** – follow-up agent with the same parameter scale but direct visual grounding on rendered frames.
 
