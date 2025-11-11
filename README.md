@@ -58,7 +58,6 @@ Reported to be competitive with, and in some cases stronger than, GPT‑4o for s
   <tr>
     <td><img src="gif/episode_18.gif" width="180"><br>Episode 18</td>
     <td><img src="gif/episode_19.gif" width="180"><br>Episode 19</td>
-    <td><img src="gif/episode_20.gif" width="180"><br>Episode 20</td>
     <td></td>
   </tr>
 </table>
