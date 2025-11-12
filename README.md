@@ -25,7 +25,7 @@ Reported to be competitive with, and in some cases stronger than, GPT‑4o for s
 
 ## Episode GIF Gallery
 
-### Episodes 1 – 6 · Baseline (circular icons)
+### Episodes 1 – 6 · Baseline (circular icons) 
 <table>
   <tr>
     <td><img src="gif/episode_1.gif" width="180"><br>Episode 1</td>
@@ -40,6 +40,10 @@ Reported to be competitive with, and in some cases stronger than, GPT‑4o for s
     <td></td>
   </tr>
 </table>
+
+Initially, the agent would often freeze unexpectedly. My first change was to make the prey and predator visually distinct; this noticeably helped.
+
+However, it still doesn’t reliably avoid the predator, and its route to the goal is narrow/single‑tracked.
 
 ### Episodes 10 – 20 · Shape-Differentiated Legends
 <table>
@@ -83,3 +87,4 @@ Reported to be competitive with, and in some cases stronger than, GPT‑4o for s
     <td></td>
   </tr>
 </table>
+
